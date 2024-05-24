@@ -1,7 +1,7 @@
 ## **LLM+stable diffusion-v2**
 本项目基于给定的环境形容词（keywords），拼接随机的绘画主人公，利用Qwen 1.5-1.8B随机生成相关的场景文字，进一步拼接随机的绘画风格，输入stable-diffusion-v2模型批量生成不同的图片
 
-完成环境配置与模型下载后，你只需要指定keytowrds，主人公，绘画风格便可批量生成相关图片。
+完成环境配置与模型下载后，你只需要指定keywords，主人公，绘画风格便可批量生成相关图片。
 
 ## **Environment setup**
 
