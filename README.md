@@ -24,3 +24,4 @@ python download.py
 python generate_img.py
 ```
 <img src="./output/img_output/dog_3.png" alt="描述" style="width: 300px; height: 300;">
+<img src="./output/img_output/cat_2.png" alt="描述" style="width: 300px; height: 300;">
