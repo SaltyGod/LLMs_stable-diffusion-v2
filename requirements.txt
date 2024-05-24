@@ -1,0 +1,7 @@
+modelscope==1.14.0
+random
+tqdm==4.65.0
+json
+csv
+os
+transformers==4.37.0
