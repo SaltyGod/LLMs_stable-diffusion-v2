@@ -23,5 +23,4 @@ python download.py
 ```
 python generate_img.py
 ```
-<img src="./output/img_output/dog_3.png" alt="描述" style="width: 50px; height: auto;">
-![生成图像示例](./output/img_output/dog_3.png "An image in the images folder")
+<img src="./output/img_output/dog_3.png" alt="描述" style="width: 100px; height: 100;">
