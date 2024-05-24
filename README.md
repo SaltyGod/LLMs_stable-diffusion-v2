@@ -23,3 +23,5 @@ python download.py
 ```
 python generate_img.py
 ```
+
+![生成图片](./output/img_output/dog_3.png)
