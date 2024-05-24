@@ -14,16 +14,13 @@ device = "cuda"
 def img_style(characters,styles):
     """
     随机选择img的主要角色以及绘画风格
-    
     Args:
         characters (list): 主要角色列表
         styles (list): 绘画样式
-    
     Returns:
         tuple: 返回元组。
     
     """
-        
     character = random.choice(characters)
     style = random.choice(styles)
     
@@ -36,10 +33,8 @@ def keywords_to_str(file_path, character):
     
     # 添加随机抽取的chatater
     keywords.append(character)
-    
     # 打乱重排
     random.shuffle(keywords)
-    
     # 拼接字符串
     result = ','.join(keywords)
     
@@ -53,10 +48,8 @@ def generate_text(model_dir,query):
     Args:
         model_dir (str): 模型路径
         query (str): 输入提问
-    
     Returns:
         str: 解码后的回答
-    
     """
     model = AutoModelForCausalLM.from_pretrained(
         model_dir,
@@ -165,13 +158,5 @@ for _ in tqdm(range(5), desc="Processing"):
         ]
     }
     )
-    
+    # 导入生成场景表述
     to_csv(sence_output,results)
-        
-
-        
-        
-
-    
-        
-        
