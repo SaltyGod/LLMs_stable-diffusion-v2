@@ -12,7 +12,7 @@ My device：Linux，PyTorch version 2.1.2+cu121
 pip install modelspace
 pip install -r requirement.txt
 ```
-**2.  请下载Qwen与stable-diffusion-v2**
+**2.  请下载Qwen与stable-diffusion-v2模型配置文件**
 ```shell
 python download.py
 ```
